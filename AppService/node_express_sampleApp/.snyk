@@ -1,0 +1,18 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - pug > pug-code-gen > constantinople > babel-types > lodash:
+        patched: '2023-08-10T11:56:32.954Z'
+        id: SNYK-JS-LODASH-567746
+        path: pug > pug-code-gen > constantinople > babel-types > lodash
+    - pug > pug-filters > constantinople > babel-types > lodash:
+        patched: '2023-08-10T11:56:32.954Z'
+        id: SNYK-JS-LODASH-567746
+        path: pug > pug-filters > constantinople > babel-types > lodash
+    - pug > pug-code-gen > pug-attrs > constantinople > babel-types > lodash:
+        patched: '2023-08-10T11:56:32.954Z'
+        id: SNYK-JS-LODASH-567746
+        path: pug > pug-code-gen > pug-attrs > constantinople > babel-types > lodash
